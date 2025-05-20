@@ -6,17 +6,20 @@
 
 1. Try out new changes in a feature branch off of dev.
 2. Merge changes into dev. Once merged in, use a github action to build the html pages and deploy them to 3.
-3. The fit-dev repo is hosted on github pages. Navigate to nmfs-ost.github.io/noaa-fit-dev to preview the FIT website.
+3. The noaa-fit-dev repo is hosted on github pages. Navigate to nmfs-ost.github.io/noaa-fit-dev to preview the FIT website.
 4. Once confirming the dev pages look good, merge changes into 4 (for small changes, can consider squashing or rebasing instead). Once merged in, use a github action (done automatically) to build the html pages and deploy them to 5. Delete the dev branch and recreate it from (so that they are back in sync with the exact same commits).
 5. This is the production version of the NOAA fisheries site, advertised to the public.
 
 ## Webpage addresses on production
 
- - FIT landing page (https://nmfs-ost.github.io/noaa-fit/ ; no change)
- - individual tool landing pages, toolbox hosted (https://nmfs-ost.github.io/noaa-fit/ASAP, for example; CHANGE from nmfs-fish-tools.github.io/ASAP)
+ - FIT landing page (https://nmfs-ost.github.io/noaa-fit/)
+ - individual tool landing pages, toolbox hosted (https://nmfs-ost.github.io/noaa-fit/ASAP)
 
 ## redirect pages
- - will need the nmfs-fish-tools.github.io (and other org .io repos) to redirect; same with nmfs-fish-tools.github.io/toolname. These redirect automatically or have a redirect link.
+
+The following repos contain files that automatically redirect the old website locations:
+ - https://github.com/nmfs-fish-tools/nmfs-fish-tools.github.io
+ - https://github.com/noaa-fisheries-integrated-toolbox/noaa-fisheries-integrated-toolbox.github.io
 
 ## Org Templating
 
