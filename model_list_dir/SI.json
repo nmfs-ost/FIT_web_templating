@@ -1,0 +1,18 @@
+{
+  "active_development": true,
+  "tool_name": "SwimmingIndividuals",
+  "tool_abbreviation": "SI",
+  "authors": "Matthew Woodstock, Jann Paul Mattern, Zhen Wu, Gregory Britten",
+  "noaa_internal": true,
+  "maintainer_name": "Matthew Woodstock",
+  "maintainer_email": "matthew.woodstock@noaa.gov",
+  "background_text": "SwimmingIndividuals is an open-source, high-performance agent-based model (ABM) for simulating marine ecosystems. Written in the Julia language, its hybrid CPU/GPU architecture enables large-scale simulations, tracking the life history, behavior, and interactions of millions of individual organisms as they navigate a dynamic, spatially-explicit world. Each agent is governed by a suite of detailed sub-models, including physics-based visual predation, adaptive movement and behavior (such as diel vertical migration), flexible bioenergetics, and complex fisheries interactions. The framework is designed to explore how these individual-level processes generate emergent population and community dynamics. As a powerful and flexible tool, SwimmingIndividuals allows researchers, managers, and students to conduct in-silico experiments to test ecological theory, evaluate the impacts of fisheries, and project ecosystem responses to environmental change.",
+  "citation": "https://doi.org/10.5281/zenodo.17132410",
+  "user_organizations": ["NMFS-SEFSC", "CIMAS"],
+  "executable_link": "https://github.com/mattwoodstock/SwimmingIndividuals/releases/tag/v1.0.0",
+  "documentation_link": "https://mattwoodstock.github.io/SwimmingIndividuals/",
+  "source_code_link": "https://github.com/mattwoodstock/SwimmingIndividuals",
+  "installation_instructions": "In Julia, enter the package manager by pressing the `]` key, then install from GitHub:<br><br>\n        <code>]add https://github.com/mattwoodstock/SwimmingIndividuals<\/code><br><br>\n        More details on installation and usage are available on the <a href=\"https://github.com/mattwoodstock/SwimmingIndividuals\">the project's GitHub page <\/a>.",
+  "uses_github_releases": true,
+  "static_version_number": "1.0"
+}
