@@ -3,11 +3,11 @@
   "background_text": "Reusable github actions workflows for R packages.",
   "maintainer_name": "Kathryn Doering",
   "maintainer_email": "kathryn.doering@noaa.gov",
-  "documentation_link": "https://nmfs-fish-tools.github.io/ghactions4r/reference/index.html",
-  "source_code_link": "https://github.com/nmfs-fish-tools/ghactions4r",
+  "documentation_link": "https://nmfs-ost.github.io/ghactions4r/reference/index.html",
+  "source_code_link": "https://github.com/nmfs-ost/ghactions4r",
   "tool_abbreviation": "ghactions4r",
   "tool_name": "ghactions4r",
-  "website_link": "https://nmfs-fish-tools.github.io/ghactions4r/",
+  "website_link": "https://nmfs-ost.github.io/ghactions4r/",
   "active_development": true,
   "noaa_internal": true,
   "software_badges":[
@@ -16,7 +16,7 @@
       "alt_text": "A software badge showing that the repository is active."
     },
     {
-      "link": "https://github.com/nmfs-fish-tools/ghactions4r/actions/workflows/call-r-cmd-check.yml/badge.svg", 
+      "link": "https://github.com/nmfs-ost/ghactions4r/actions/workflows/call-r-cmd-check.yml/badge.svg", 
       "alt_text": "A software badge showing the status of a GitHub action workflow called call-r-cmd-check."
     },
     {
