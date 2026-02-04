@@ -17,6 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v6
+      with:
+        persist-credentials: false
     - name: Set up Python 3.9
       uses: actions/setup-python@v6
       with:
@@ -36,4 +38,5 @@ jobs:
       with:
         folder: deploy # The folder the action should deploy.
         repository-name: nmfs-ost/noaa-fit-dev
+
         token: ${{ secrets.FIT_DEPLOY_TOKEN }}
