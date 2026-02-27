@@ -10,7 +10,9 @@
 <body>
     <div class="container">
       <div class="mywrap_head">
-        <img src="https://raw.githubusercontent.com/nmfs-ost/FIT-graphics/main/FIT_logo/logo_pngs/FIT_logo_2022_color_no_text.png" alt="NOAA Fisheries Integrated Toolbox Logo" height="75">&nbsp;&nbsp;&nbsp;
+          <img src="https://raw.githubusercontent.com/nmfs-ost/FIT-graphics/main/NOAA_logos/noaa-fisheries-rgb-2line-horizontal-small.png" alt="NOAA Fisheries Logo" height="75" >
+      </div>
+      <div class="mywrap_head">
         <h1 class ="header_title">NOAA Fisheries Integrated Toolbox</h1>
     </div>
     <div class ="mywrap_head">
@@ -30,6 +32,8 @@
         <div class="mywrap">
             {% if tool_logo is defined and tool_logo|length %}
               <img src="{{tool_logo}}" alt = "tool logo" height = "75">
+            {% else %}
+              <img src="https://raw.githubusercontent.com/nmfs-ost/FIT-graphics/main/FIT_logo/logo_pngs/FIT_logo_2022_color_no_text.png" alt="NOAA Fisheries Integrated Toolbox Logo" height="75">&nbsp;&nbsp;&nbsp;
             {% endif%}
             <h2 class ="title">
               Tool: {{tool_name}} ({{tool_abbreviation}})
