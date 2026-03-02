@@ -31,7 +31,7 @@ jobs:
         python create_catalog_landing_page.py dev_config.json
         python create_site_index_page.py dev_config.json
     - name: upload
-      uses: actions/upload-artifact@v6
+      uses: actions/upload-artifact@v7
       with: 
         path: deploy
         name: deploy
