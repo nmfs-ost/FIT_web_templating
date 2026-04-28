@@ -7,13 +7,13 @@
 1. Try out new changes in a feature branch off of dev.
 2. Merge changes into dev. Once merged in, use a github action to build the html pages and deploy them to 3.
 3. The noaa-fit-dev repo is hosted on github pages. Navigate to nmfs-ost.github.io/noaa-fit-dev to preview the FIT website.
-4. Once confirming the dev pages look good, merge changes into 4 (for small changes, can consider squashing or rebasing instead). Once merged in, use a github action (done automatically) to build the html pages and deploy them to 5. Delete the dev branch and recreate it from (so that they are back in sync with the exact same commits).
+4. Once confirming the dev pages look good, merge changes into 4 (for small changes, can consider squashing or rebasing instead). Once merged in, use a github action (done automatically) to build the html pages and deploy them to 5. Delete the dev branch and recreate it from main(so that they are back in sync with the exact same commits).
 5. This is the production version of the NOAA fisheries site, advertised to the public.
 
 ## Webpage addresses on production
 
  - FIT landing page (https://nmfs-ost.github.io/noaa-fit/)
- - individual tool landing pages, toolbox hosted (https://nmfs-ost.github.io/noaa-fit/ASAP)
+ - individual tool landing pages, toolbox hosted (e.g., https://nmfs-ost.github.io/noaa-fit/ASAP)
 
 ## redirect pages
 
@@ -29,8 +29,8 @@ This repository includes templates and JSON data for the FIT. [python's jinja 2]
 1. Changes should be made in a branch off of dev. In [model_list_dir subfolder](https://github.com/nmfs-ost/FIT_web_templating/tree/main/model_list_dir) add or update `.json` files. Examples of json are available in the readme. If onboarding a new tool, the issue from [the onboard-and-update repo](https://github.com/nmfs-ost/FIT-onboard-and-update) should have a json based on user input that can be copy/pasted in, then checked.
 2. If it is a new tool, add the name of the json file (minus the extension, case sensitive) to the list_of_models item in the models_all.json file.
 3. Changes can be checked locally using instructions in the "Creating Webpages Locally From Templates"
-4. After committing and pushing to dev, changes can be checked on the [fit-dev](https://nmfs-ost.github.io/noaa-fit-dev/) site. If GitHub actions are failing, look at them and make changes.
-5. Once actions passing, share changed dev tool landing page with the person submitting the(e.g., if the tool is called, my-tool, the address would be https://nmfs-ost.github.io/noaa-fit-dev/my-tool). Allow them to request changes. 
+4. After committing and pushing to dev, changes can be checked on the [fit-dev](https://nmfs-ost.github.io/noaa-fit-dev/) site (may take a few minutes after pushing to dev to build and deploy). If GitHub actions on the dev branch are failing, look at them and make changes to code.
+5. Once actions passing, share changed dev tool landing page with the person submitting the onboarding request (e.g., if the tool is called, my-tool, the dev tool landing page would be https://nmfs-ost.github.io/noaa-fit-dev/my-tool). Allow them to request changes or approve the landing page.
 6. If the author approves, open an PR to main, which KD will look at and merge in if passing checks.
 
 ## Explanation of JSON metadata
