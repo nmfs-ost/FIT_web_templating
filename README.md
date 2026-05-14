@@ -71,6 +71,12 @@ GitHub actions code (YAML files) live in the `.github/workflows` directory.
 - `validate_json_config.yml`: check that `prod_config.json`,`dev_config.json` matches the JSON schema defined in `schema_config.json` and that `models_all.json` matches the JSON schema definied in `schema_models_all.json`. If the GitHub action fails, it will provide info on how the json files need to be modified to match the schema. Runs on every push to any branch, and manually.
 - `validate_json_model_list.yml`: checks that the JSON files in `model_list_dir` matches the JSON schema defined in `schema_model_list.json`. If the GitHub action fails, it will provide info on how the json files need to be modified to match the schema. Runs on every push to any branch where there are changes to the files in `model_list_dir` and manually.
 
+### Personal Access Tokens and Secrets needed to deploy
+
+For the GitHub Actions to deploy to the dev and production repositories, A fine-grained personal access token with write permissions on the repositories is needed. For nmfs-ost, Tokens can have a max. lifespan of 90 days.
+
+1) [Create a fine-grained personal access token](https://docs.github.com/en/enterprise-cloud@latest/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token). This token will need to have access to the nmfs-ost organization and access to the nmfs-ost/noaa-fit-dev, nmfs-ost/noaa-fit, and nmfs-ost/FIT_web_templating repositories. No organization permissions are needed, but it will need "read access to metadata" and "read and write access to code and deployments" for "repository permissions". Be sure to save the token string, as you will only be able to see it once! Treat it as you would a password, do not share it.
+2) This token will need to be [added as a secret](https://docs.github.com/en/enterprise-cloud@latest/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets#creating-secrets-for-an-organization). An admin can edit the existing secret called "FIT_DEPLOY_TOKEN" (visible to admins at https://github.com/organizations/nmfs-ost/settings/secrets/actions/FIT_DEPLOY_TOKEN) and add new value (being sure to save changes). Request help from a nmfs-ost admin by opening an issue in the [nmfs-ost/admin repo](https://github.com/nmfs-ost/admin), though DO NOT SHARE your token string in the issue!
 
 ## Disclaimer
 
