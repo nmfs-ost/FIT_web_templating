@@ -1,0 +1,23 @@
+{
+  "associated_tools": [{"name":"AGEPRO calculation engine", "link":"https://nmfs-ost.github.io/noaa-fit/AGEPRO"}],
+  "authors": "Brodziak, J. and E. Fletcher",
+  "maintainer_name": "Eric Fletcher",
+  "maintainer_email": "eric.fletcher@noaa.gov",
+  "background_text": "This is a Windows-based Graphical interface of AGEPRO (Age Structured Projection Model), designed to evaluate the likely population consequences of complex harvest scenarios under alternative hypotheses about the stock-recruitment relationship. Uncertainty in initial population size at age is incorporated into the model. This GUI is a revamp of the the original NOAA Fisheries National Fisheries Toolbox interface designed by Alan Seaver. AGEPRO-GUI includes AGEPRO Calculation Engine, the command line based version of AGEPRO.",
+  "executable_link": "https://github.com/PIFSCstockassessments/AGEPRO-GUI/releases/latest",
+  "source_code_link": "https://github.com/PIFSCstockassessments/AGEPRO-GUI",
+  "tool_abbreviation": "AGEPRO-GUI",
+  "tool_name": "Age Structured Projection Model User Interface",
+  "citation": "https://doi.org/10.4027/fsam.1998.52",
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/active.svg", 
+      "alt_text": "A software badge showing that the repository is active."
+    }
+  ],
+  "active_development": true,
+  "noaa_internal": true,
+  "uses_github_releases": true,
+  "toolbox_drawers": ["Fish and Fisheries"],
+  "keywords": ["Stock Assessment Projections", "Age Structured Model", "Guided User Interface"]
+}
