@@ -1,6 +1,5 @@
 {
-  "associated_tools": [{"name":"AGEPRO GUI Core Library", "link":"https://github.com/PIFSCstockassessments/AGEPRO-CoreLib"}, 
-                       {"name":"AGEPRO source code (GitHub)", "link":"https://github.com/PIFSCstockassessments/AGEPRO"}],
+  "associated_tools": [{"name":"AGEPRO-GUI", "link":"https://nmfs-ost.github.io/noaa-fit/AGEPRO-GUI"}],
   "authors": "Brodziak, J. and E. Fletcher",
   "maintainer_name": "Eric Fletcher",
   "maintainer_email": "eric.fletcher@noaa.gov",
