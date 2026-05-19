@@ -37,7 +37,7 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --accept '200, 302, 401..=403' ./deploy --verbose
+          args: --accept '200, 302, 401..=403' . --verbose
           fail: true
 
       
