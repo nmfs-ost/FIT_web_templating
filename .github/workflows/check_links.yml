@@ -1,6 +1,7 @@
 name: Check for Broken Links
 
 on:
+  push:
   workflow_dispatch:
   schedule:
     - cron: '7 3 * * 0'
