@@ -1,0 +1,37 @@
+{
+  "active_development": true,
+  "tool_name": "Rceattle",
+  "tool_abbreviation": "Rceattle",
+  "authors": "Grant Adams",
+  "contributors": "Cole Monnahan, Sophia Wasserman, Kirstin Holsman, Andre Punt, Raquel Ruiz Diaz, Jim Ianelli",
+  "noaa_internal": true,
+  "maintainer_name": "Grant Adams",
+  "maintainer_email": "grant.adams@noaa.gov",
+  "background_text": "Rceattle is an R package for fitting climate-linked, single- and multi-species age-structured stock assessment models and testing via diagnostics, simulation, and management strategy evaluation. Rceattle implements models in R using Template Model Builder. The package has been used for operational stock assessments, ESPs/ESRs, MSE, and research. Capabilities include:<ul><li>Single-species (msmMode = 0) and multispecies (msmMode &gt; 0) configurations, with one- or two-sex population dynamics</li><li>One or multiple single-species stock assessment models can be fit jointly</li><li>Multiple fisheries and surveys with flexible catchability and selectivity parameterizations (logistic, double-logistic, non-parametric, time-varying, etc.)</li><li>Stock–recruitment options (Beverton–Holt, Ricker, mean-recruitment, environmentally-driven</li><li>Estimable growth (von Bertalanffy / Richards / empirical weight-at-age)</li><li>Environmental linkages and priors on recruitment, natural mortality, and growth parameters</li><li>Bioenergetics-based predation with input or temperature-specific consumption (multispecies mode)</li><li>Forward projections under alternative harvest control rules and climate scenarios</li><li>Closed-loop MSE, retrospective, jitter, and simulation testing</li><li>Tidy outputs via S3 methods (as.data.frame, coef, logLik, vcov, residuals, plot)</li></ul>",
+  "citation": "https://doi.org/10.1016/j.fishres.2022.106303",
+  "references": [
+    "https://doi.org/10.1016/j.fishres.2022.106303",
+    "https://doi.org/10.1139/cjfas-2024-0225",
+    "https://doi.org/10.1016/j.dsr2.2015.08.001",
+    "https://doi.org/10.64898/2026.03.13.711664",
+    "https://doi.org/10.1093/icesjms/fsae064"
+  ],
+  "source_code_link": "https://github.com/grantdadams/Rceattle",
+  "documentation_link": "https://grantdadams.github.io/Rceattle/index.html",
+  "website_link": "https://grantdadams.github.io/Rceattle/index.html",
+  "executable_link": "https://github.com/grantdadams/Rceattle/releases/latest",
+  "installation_instructions": "<code># Rceattle (pulls CRAN dependencies automatically)</code><br><br><code>install.packages(\"remotes\")</code><br><code>remotes::install_github(\"grantdadams/Rceattle\")</code>",
+  "toolbox_drawers": [
+    "Ecosystems",
+    "Fish and Fisheries",
+    "General Modeling Tools"
+  ],
+  "keywords": [
+    "Age Structured Model",
+    "C++",
+    "Decision Support Tool",
+    "Multispecies Model",
+    "R Package"
+  ],
+  "uses_github_releases": true
+}
