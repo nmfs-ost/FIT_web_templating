@@ -11,12 +11,12 @@
   "citation": "https://doi.org/10.1016/j.fishres.2022.106303",
   "references": [
     "https://doi.org/10.1016/j.fishres.2022.106303",
-    "Adams, G. D., Holsman, K., Rovellini, A., Stewart, I. J., Privitera-Johnson, K., Wassermann, S. N., & Punt, A. E. (2025). Implications of predator–prey dynamics for single species management. Canadian Journal of Fisheries and Aquatic Sciences, 82, 1-19.",
-    "Holsman, K. K., Ianelli, J., Aydin, K., Punt, A. E., & Moffitt, E. A. (2016). A comparison of fisheries biological reference points estimated from temperature-specific multi-species and single-species climate-enhanced stock assessment models. Deep Sea Research Part II: Topical Studies in Oceanography, 134, 360-378.",
-    "Kapur, M. S., Adams, G., Lapeyrolerie, M., & Thorson, J. T. (2026). AI for Fisheries Science: Neural Network Tools for Forecasting, Spatial Standardization, and Policy Optimization. bioRxiv, 2026-03.",
-    "Wassermann, S. N., Adams, G. D., Haltuch, M. A., Kaplan, I. C., Marshall, K. N., & Punt, A. E. (2025). Even low levels of cannibalism can bias population estimates for Pacific hake. ICES Journal of Marine Science, 82(1), fsae064."
+    "https://doi.org/10.1139/cjfas-2024-0225",
+    "https://doi.org/10.1016/j.dsr2.2015.08.001",
+    "https://doi.org/10.64898/2026.03.13.711664",
+    "https://doi.org/10.1093/icesjms/fsae064."
   ],
-  "source_code_link": "https://github.com/grantdadams/Rceattle/tree/main",
+  "source_code_link": "https://github.com/grantdadams/Rceattle",
   "documentation_link": "https://grantdadams.github.io/Rceattle/index.html",
   "website_link": "https://grantdadams.github.io/Rceattle/index.html",
   "executable_link": "https://github.com/grantdadams/Rceattle/releases/tag/4.4.1",
@@ -33,6 +33,5 @@
     "Multispecies Model",
     "R Package"
   ],
-  "uses_github_releases": true,
-  "static_version_number": "4.4.1"
+  "uses_github_releases": true
 }
