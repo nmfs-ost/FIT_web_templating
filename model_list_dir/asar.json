@@ -1,0 +1,57 @@
+{
+  "active_development": true,
+  "tool_name": "asar",
+  "tool_abbreviation": "asar",
+  "authors": "Samantha Schiano, Sophie Breitbart, and Steve Saul",
+  "contributors": "Bai Li, Kathryn Doering",
+  "background_text": "{asar} is an R package that partially automates a stock assessment report and facilitates actions accompanying the workflow including making documents accessible (a federal requirement). This package was developed out of a need for a more streamlined and efficient stock assessment process where the lowest hanging fruit was reporting. It standardizes report structure while simultaneously allowing broader customizations needed for a particular stock or region's report. The need to make accessible documents in an automated fashion was a top priority, so heavy development and a collaboration with Quarto, a major industry partner, brought {asar} accessibility features to an open-source publishing platform used by thousands worldwide.",
+  "installation_instructions": "<a href=\"https://github.com/nmfs-ost/asar/blob/main/README.md#installation\">https://github.com/nmfs-ost/asar/blob/main/README.md#installation</a>",
+  "citation": "Schiano S, Breitbart S, Saul S (2026). asar: Build NOAA Stock Assessment Report. R package version 2.2.0, <a href=\"https://github.com/nmfs-ost/asar\">https://github.com/nmfs-ost/asar</a>.",
+  "documentation_link": "https://nmfs-ost.github.io/asar/reference/index.html",
+  "source_code_link": "https://github.com/nmfs-ost/asar",
+  "website_link": "https://nmfs-ost.github.io/asar/",
+  "software_badges": [
+    {
+      "link": "https://www.repostatus.org/badges/latest/active.svg",
+      "alt_text": "Repository status badge showing that the project is active."
+    },
+    {
+      "link": "https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/nmfs-ost/asar/refs/heads/badges/coverage-badge.json",
+      "alt_text": "Code coverage and badge links for the asar repository."
+    },
+    {
+      "link": "https://img.shields.io/badge/lifecycle-experimental-orange.svg",
+      "alt_text": "Lifecycle badge for the asar project."
+    }
+  ],
+  "noaa_internal": true,
+  "maintainer_name": "Samantha Schiano",
+  "maintainer_email": "samantha.schiano@noaa.gov",
+  "associated_tools": [
+    {
+      "name": "stockplotr",
+      "link": "https://github.com/nmfs-ost/stockplotr"
+    }
+  ],
+  "user_organizations": [
+    "https://ror.org/033mqx355",
+    "https://ror.org/01h7fye62",
+    "https://ror.org/02nc0ck44",
+    "https://ror.org/05r7z1k40",
+    "https://ror.org/02apffz65",
+    "https://ror.org/0396y0w87",
+    "https://ror.org/022d75229"
+  ],
+  "toolbox_drawers": [
+    "Fish and Fisheries",
+    "Utility Tools"
+  ],
+  "keywords": [
+    "Fisheries",
+    "R Package",
+    "Standardized Reporting",
+    "Stock Assessment Tool",
+    "Utility Tools"
+  ],
+  "uses_github_releases": true
+}
