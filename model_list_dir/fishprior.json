@@ -1,0 +1,46 @@
+{
+  "active_development": true,
+  "tool_name": "fishprior",
+  "tool_abbreviation": "fishprior",
+  "authors": "Kelli Johnson, Jenny Bigman, Eric Ward",
+  "noaa_internal": true,
+  "maintainer_name": "Kelli Johnson",
+  "maintainer_email": "kelli.johnson@noaa.gov",
+  "background_text": "The fishprior R package provides a streamlined workflow for constructing Bayesian prior distributions for fish life-history parameters, using FishBase (and rfishbase). The package is structured around three steps: data retrieval, trait summarization, and prior construction.<br><br>Raw life-history data are queried from FishBase using the <code>get_fishbase_traits()</code> function. For a given vector of species names, the function retrieves five separate data tables from FishBase: von Bertalanffy growth parameters (popgrowth), population characteristics including maximum length and age (popchar), length-weight relationships (poplw), maturity schedules (maturity), and fecundity estimates (fecundity) and combines them into a single tidy long-format tibble. Each row in the resulting table corresponds to a single observation. Standard errors and sample sizes are provided for individual studies, and the reporting of this information varies by trait type.<br><br>For prior construction, raw data from FishBase needs to be aggregated into a form that is useful for prior construction. The <code>summarize_fishbase_traits()</code> function aggregates raw trait data at the species level for eight life-history parameters commonly encountered in fish stock assessments: asymptotic length (L∞), the von Bertalanffy growth coefficient (k), natural mortality (M), maximum length (Lmax), maximum age (tmax), length at maturity (Lm), age at maturity (tm), and mean fecundity. For each species–trait combination, the function returns both arithmetic and log-scale summary statistics (mean and standard deviation), with the log-scale summaries computed after excluding non-positive values.<br><br>The fishprior package constructs priors using a custom S4 class, which stores the distributional family, parameter values, trait name, prior type (informative or diffuse), grouping variable (typically species), and the underlying data. Two families of prior are currently supported: normal and lognormal, though future development will add a wider range of distributions.",
+  "citation": "<a href=\"https://github.com/NOAA-FIMS/fishprior/blob/main/inst/CITATION\">https://github.com/NOAA-FIMS/fishprior/blob/main/inst/CITATION</a>",
+  "associated_tools": [
+    {
+      "name": "FIMS",
+      "link": "https://github.com/NOAA-FIMS/FIMS"
+    }
+  ],
+  "documentation_link": "https://noaa-fims.github.io/fishprior/",
+  "source_code_link": "https://github.com/NOAA-FIMS/fishprior",
+  "software_badges": [
+    {
+      "link": "https://github.com/noaa-fims/fishprior/actions/workflows/call-r-cmd-check.yml/badge.svg",
+      "alt_text": "R-CMD-check"
+    },
+    {
+      "link": "https://codecov.io/gh/NOAA-FIMS/fishprior/branch/main/graph/badge.svg",
+      "alt_text": "Codecov test coverage"
+    },
+    {
+      "link": "https://img.shields.io/badge/lifecycle-experimental-orange.svg",
+      "alt_text": "Lifecycle: experimental"
+    }
+  ],
+  "installation_instructions": "The fishprior package can be installed via remotes, devtools, pak, or similar packages. The general syntax is:<br><br><code>pak::pak(\"NOAA-FIMS/fishprior\")</code>",
+  "toolbox_drawers": [
+    "Fish and Fisheries",
+    "General Modeling Tools"
+  ],
+  "keywords": [
+    "Bayesian Modeling",
+    "Data Exploration",
+    "Fish Biology",
+    "Fisheries",
+    "R Package"
+  ],
+  "uses_github_releases": true
+}
