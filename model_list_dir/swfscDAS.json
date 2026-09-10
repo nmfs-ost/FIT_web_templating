@@ -1,0 +1,37 @@
+{
+  "active_development": false,
+  "tool_name": "swfscDAS - Processing DAS Data Files",
+  "tool_abbreviation": "swfscDAS",
+  "authors": "Samuel Woodman",
+  "noaa_internal": true,
+  "maintainer_name": "Samuel Woodman",
+  "maintainer_email": "sam.woodman@noaa.gov",
+  "background_text": "This package contains functions designed for processing and analyzing shipboard DAS data. This package was originally designed to handle <a href=\"https://repository.library.noaa.gov/view/noaa/3174\">DAS data</a> collected using WinCruz, the ship-based line-transect data collection software developed by the Southwest Fisheries Science Center. However, the swfscDAS package can be used by anyone who has collected DAS data that meets the format requirements described in the <a href=\"https://swfsc.github.io/swfscDAS/#DAS-data-format\">‘DAS data format’</a> section below, for instance to process decades of available NOAA Fisheries DAS survey data.",
+  "citation": "https://doi.org/10.32614/CRAN.package.swfscDAS",
+  "references": [
+    "https://repository.library.noaa.gov/view/noaa/3174"
+  ],
+  "user_organizations": [
+    "https://ror.org/022d75229",
+    "https://ror.org/02apffz65"
+  ],
+  "website_link": "https://swfsc.github.io/swfscDAS/index.html",
+  "documentation_link": "https://swfsc.github.io/swfscDAS/reference/index.html",
+  "source_code_link": "https://github.com/SWFSC/swfscDAS",
+  "software_badges": [
+    {
+      "link": "https://www.r-pkg.org/badges/version/swfscDAS",
+      "alt_text": "CRAN version"
+    }
+  ],
+  "installation_instructions": "You can install the released version of <code>swfscDAS</code> from <a href=\"https://CRAN.R-project.org\">CRAN</a> with:<br><br><code>install.packages(\"swfscDAS\")</code><br><br>You can install the developmental version of <code>swfscDAS</code> from <a href=\"https://github.com\">GitHub</a> with:<br><br><code># install.packages(\"pak\")</code><br><code>pak::install_github(\"swfsc/swfscDAS\")</code><br><br>Note that <code>pak</code> is recommended here because of occassional issues using <code>remotes</code> from government computers.",
+  "toolbox_drawers": [
+    "Protected Species"
+  ],
+  "keywords": [
+    "Data Exploration",
+    "Marine Mammals",
+    "R Package"
+  ],
+  "uses_github_releases": true
+}
