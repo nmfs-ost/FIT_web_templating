@@ -22,6 +22,10 @@
     "source_code_link": "https://github.com/chengmatt/SPoRC",
     "software_badges": [
         {
+            "link": "https://img.shields.io/badge/FIT_quality_checks-passed-759A06", 
+            "alt_text": "A software badge showing that this tool has passed the FIT quality checks"
+        },
+        {
             "link": "https://codecov.io/gh/chengmatt/SPoRC/graph/badge.svg",
             "alt_text": "codecov test coverage"
         }
