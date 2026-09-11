@@ -12,16 +12,16 @@
   "website_link": "https://nmfs-ost.github.io/asar/",
   "software_badges": [
     {
+      "link": "https://img.shields.io/badge/FIT_quality_checks-passed-759A06", 
+      "alt_text": "A software badge showing that this tool has passed the FIT quality checks"
+    },
+    {
       "link": "https://www.repostatus.org/badges/latest/active.svg",
       "alt_text": "Repository status badge showing that the project is active."
     },
     {
       "link": "https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/nmfs-ost/asar/refs/heads/badges/coverage-badge.json",
       "alt_text": "Code coverage and badge links for the asar repository."
-    },
-    {
-      "link": "https://img.shields.io/badge/lifecycle-experimental-orange.svg",
-      "alt_text": "Lifecycle badge for the asar project."
     }
   ],
   "noaa_internal": true,
