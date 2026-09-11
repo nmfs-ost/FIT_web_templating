@@ -4,7 +4,7 @@
     "tool_abbreviation": "SPoRC",
     "authors": "Matthew Cheng",
     "contributors": "Dan Goethel, Curry Cunningham, Pete Hulson",
-    "tool_logo": "https://github.com/chengmatt/SPoRC/blob/master/man/figures/SPoRC_hex.png?raw=true",
+    "tool_logo": "https://github.com/chengmatt/SPoRC/blob/main/man/figures/SPoRC_hex.png?raw=true",
     "noaa_internal": true,
     "maintainer_name": "Matthew Cheng",
     "maintainer_email": "lhcheng@alaska.edu",
