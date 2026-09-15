@@ -147,11 +147,15 @@
               <div class = "longTitle">{{value['tool_name']}}</div>
                 {% if value['FIT_reviewed'] is defined and value['FIT_reviewed'] == 'Yes' %}
                 <div style="text-align: center;">
-                  <img src="https://img.shields.io/badge/FIT_quality_checks-Passed-759A06" alt="A software badge showing that this tool has passed the FIT quality checks">
+                  <a href="https://nmfs-ost.github.io/noaa-fit-resources/noaa%20fit/tool-quality/">
+                    <img src="https://img.shields.io/badge/FIT_quality_checks-Passed-759A06" alt="A software badge showing that this tool has passed the FIT quality checks">
+                  </a>
                 </div>
                 {% elif value['FIT_reviewed'] is defined and value['FIT_reviewed'] == 'In_Progress' %}
                 <div style="text-align: center;">
-                  <img src="https://img.shields.io/badge/FIT_quality_checks-In_Progress-white" alt="A software badge showing that this tool is currently under review for the FIT quality checks">
+                  <a href="https://nmfs-ost.github.io/noaa-fit-resources/noaa%20fit/tool-quality/">
+                    <img src="https://img.shields.io/badge/FIT_quality_checks-In_Progress-white" alt="A software badge showing that this tool is currently under review for the FIT quality checks">
+                  </a>
                 </div>
                 {% endif %}
               <div class = "toolbox_drawers">
