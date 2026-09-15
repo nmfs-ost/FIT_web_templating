@@ -88,10 +88,10 @@ def run_all_files(list_of_models, folder_out, configdir, dev_or_prod_config):
         
 
 
-def main(dev_or_prod_config):
+def main(dev_or_prod_config, model_names=None):
     with open("models_all.json", "r") as read_file:
         modellist_configjson = json.load(read_file)
-    list_of_models = modellist_configjson['list_of_models']    
+  list_of_models = model_names or modellist_configjson['list_of_models']
     folder_out= 'deploy'
     configdir= 'model_list_dir'
     run_all_files(list_of_models, folder_out, configdir, dev_or_prod_config)
@@ -101,4 +101,4 @@ if __name__ == '__main__':
     dev_or_prod_config = sys.argv[1]; # use this approach if we need to generate multiple files
     with open(dev_or_prod_config) as f:
             dev_or_prod_config =  json.load(f)
-    main(dev_or_prod_config)
+  main(dev_or_prod_config, sys.argv[2:])

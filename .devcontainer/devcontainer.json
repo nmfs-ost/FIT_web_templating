@@ -12,7 +12,15 @@
 				"ms-vscode.live-server"
 			]
 		}
-	}
+	},
+	"forwardPorts": [8000],
+	"portsAttributes": {
+		"8000": {
+			"label": "FIT website preview",
+			"onAutoForward": "openBrowser"
+		}
+	},
+	"postCreateCommand": "python3 -m pip install -r requirements.txt"
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],

@@ -41,10 +41,26 @@ See descriptions in the [schema_model_list.json file](https://github.com/nmfs-os
 
 ## Creating Webpages Locally From Templates
 
+### Live preview in Codespaces
+
+When this repository opens in a Codespace, a background task builds the site, serves the `deploy` directory on port 8000, and opens the preview in a browser. Changes to templates, model JSON, configuration, generator scripts, and files in `deploy/static` are detected automatically. Generated pages rebuild as needed, and open preview tabs reload after a successful build.
+
+The first time this task runs, VS Code may ask for permission to allow automatic tasks in the folder. Choose **Allow and Run**. Build output and errors are shown in the **Preview FIT website** terminal.
+
+To run the same live preview outside Codespaces, install the dependencies and start the preview process:
+
+```bash
+python3 -m pip install -r requirements.txt
+python3 preview_site.py
+```
+
+Open http://localhost:8000 if it does not open automatically.
+
+### Manual build
+
 Python and its libraries `Jinja2` and `requests` need to be installed locally.
 ```
-pip install jinja2
-pip install requests
+python3 -m pip install -r requirements.txt
 ```
 
 From bash, run:
