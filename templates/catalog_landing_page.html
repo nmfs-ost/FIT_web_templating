@@ -50,6 +50,14 @@
           <input type="button" class="dropbtn" value="See all tools" onclick="resetSearch()">
 
           <div class="dropdown">
+            <button class="dropbtn">Filter tools by quality checks</button>
+            <div class="dropdown-content">
+              <input type="button" value="Passed" onclick="qualityCheckSearch('Yes')">
+              <input type="button" value="In Progress" onclick="qualityCheckSearch('In_Progress')">
+            </div>
+          </div>
+
+          <div class="dropdown">
             <button class="dropbtn">Filter tools by drawer</button>
             <div class="dropdown-content">
               <input type="button" value="Ecosystem" onclick="drawerSearch('Ecosystem')">
@@ -58,14 +66,6 @@
               <input type="button" value="Protected Species" onclick="drawerSearch('Protected Species')">
               <input type="button" value="General Modeling Tools" onclick="drawerSearch('General Modeling Tools')">
               <input type="button" value="Utility Tools" onclick="drawerSearch('Utility Tools')">
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <button class="dropbtn">Filter tools by quality checks</button>
-            <div class="dropdown-content">
-              <input type="button" value="Passed" onclick="qualityCheckSearch('Yes')">
-              <input type="button" value="In Progress" onclick="qualityCheckSearch('In_Progress')">
             </div>
           </div>
 
