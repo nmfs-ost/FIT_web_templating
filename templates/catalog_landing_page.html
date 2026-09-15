@@ -145,6 +145,15 @@
               {% set my_string = value['tool_abbreviation']  %}
               <a class = "shortTitle" href= {{my_string}}> {{value['tool_abbreviation']}} </a>
               <div class = "longTitle">{{value['tool_name']}}</div>
+                {% if value['FIT_reviewed'] is defined and value['FIT_reviewed'] == 'Yes' %}
+                <div style="text-align: center;">
+                  <img src="https://img.shields.io/badge/FIT_quality_checks-Passed-759A06" alt="A software badge showing that this tool has passed the FIT quality checks">
+                </div>
+                {% elif value['FIT_reviewed'] is defined and value['FIT_reviewed'] == 'In_Progress' %}
+                <div style="text-align: center;">
+                  <img src="https://img.shields.io/badge/FIT_quality_checks-In_Progress-white" alt="A software badge showing that this tool is currently under review for the FIT quality checks">
+                </div>
+                {% endif %}
               <div class = "toolbox_drawers">
                 <h3>Toolbox drawer(s):</h3>
                 <ul>
@@ -166,15 +175,6 @@
               <!-- <div class = "modelType">{{value['tool_type']}}</div>
               <div class = "modelType">{{value['model_type']}}</div> -->
 
-                {% if value['FIT_reviewed'] is defined and value['FIT_reviewed'] == 'Yes' %}
-                <div style="text-align: center;">
-                  <img src="https://img.shields.io/badge/FIT_quality_checks-Passed-759A06" alt="A software badge showing that this tool has passed the FIT quality checks">
-                </div>
-                {% elif value['FIT_reviewed'] is defined and value['FIT_reviewed'] == 'In_Progress' %}
-                <div style="text-align: center;">
-                  <img src="https://img.shields.io/badge/FIT_quality_checks-In_Progress-white" alt="A software badge showing that this tool is currently under review for the FIT quality checks">
-                </div>
-                {% endif %}
               <div class = "language"></div>
               
           </div>
