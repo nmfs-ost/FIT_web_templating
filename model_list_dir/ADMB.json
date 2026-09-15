@@ -1,4 +1,5 @@
 {
+  "FIT_reviewed": "No",
   "authors": "Fournier, D.A., Skaug, H.J., Ancheta, J., Ianelli, J., Magnusson, A., Maunder, M.N., Nielsen, A., Sibert, J., Monnahan, C., Stockhausen, W., Martell, S., and Hicks, A., ", 
   "background_text": "This tool allows the display of various data on a map, built specifically for fishing data wherein thir is a location to thte start and end of a fishing haul.  Data associated to an individaul haul is shown on the map and colored based on the value of a choosen variable associated to that data.  The data is also spatially grouped based on the users choice of grid.",
   "citation": "https://doi.org/10.1080/10556788.2011.597854",

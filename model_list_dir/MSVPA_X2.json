@@ -1,4 +1,5 @@
 {
+  "FIT_reviewed": "No",
   "authors": "Klasky, R., Townsend, H., Link, J., and  E. Wurst",
   "background_text": "The Multi-Species Virtual Population Analysis tool is a Qt/C++ implementation of the Visual Basic tool written by Dr. Lance Garrison about 20 years ago.  This tool is a series of single-species virtual population analysis (VPA) models linked by a simple feeding model to calculate natural mortality rates. A VPA is the process by which a population size is inferred to have been a certain size in the past in order to support the observed fish catches and natural mortality.",
   "maintainer_name": "Ronald Klasky",

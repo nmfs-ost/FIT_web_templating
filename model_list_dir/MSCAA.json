@@ -1,4 +1,5 @@
 {
+  "FIT_reviewed": "No",
   "authors": "Klasky, R., Curti, K., Townsend, H., Link, J., and  E. Wurst",
   "background_text": "The Multi-Species Statistical Catch-At-Age tool (MSCAA) allows the user to 1) run a single-species or multi-species catch-at-age model, and 2) visually inspect the resulting Abundance values interactively.  The application uses the 3rd party application ADMB with a model (i.e., .tpl and .pin files) supplied by Dr. Kiersten Curti from her 2012 PhD dissertation, Age-Structured Multispecies Model of the Georges Bank Fish Community.",
   "maintainer_name": "Ronald Klasky",

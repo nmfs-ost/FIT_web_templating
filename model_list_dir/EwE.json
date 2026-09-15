@@ -1,4 +1,5 @@
 {
+  "FIT_reviewed": "No",
   "authors": "V. Christensen,J. Steenbeek, J.Buzkowski, C. Walters, and  J. Polovina",
   "background_text": "Ecopath with Ecosim (EwE) is a free ecological/ecosystem modeling software suite. EwE has three main components: Ecopath – a static, mass-balanced snapshot of the system; Ecosim – a time dynamic simulation module for policy exploration; and Ecospace – a spatial and temporal dynamic module primarily designed for exploring impact and placement of protected areas. The Ecopath software package can be used to, address ecological questions; evaluate ecosystem effects of fishing; explore management policy options; analyze impact and placement of marine protected areas; predict movement and accumulation of contaminants and tracers (Ecotracer); model effect of environmental changes; facilitate end-to-end model construction.",
   "maintainer_name": "Ecopath",

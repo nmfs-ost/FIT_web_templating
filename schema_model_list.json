@@ -7,6 +7,11 @@
             "description": "If the source code is actively developed",
             "type": "boolean"
         },
+        "FIT_reviewed": {
+            "description": "Whether the tool has been reviewed by the FIT team.",
+            "type": "string",
+            "enum": ["Yes", "In_Progress", "No"]
+        },
         "tool_name": {
             "description": "The full name of the tool",
             "type": "string"
@@ -155,6 +160,7 @@
     },
     "required": [
         "active_development",
+        "FIT_reviewed",
         "tool_name",
         "tool_abbreviation",
         "authors",
