@@ -1,4 +1,5 @@
 {
+  "FIT_reviewed": "No",
   "authors": "Erin Steiner, Amanda Phillips",
   "contributors": "Melanie Harsch, Lisa Pfeiffer, Marie Guldin, Melissa Krigbaum, Ashley Vizek",
   "background_text": "The FISHeries Economics Explorer (FISHEyE) is an interactive tool for exploring data from the West Coast Groundfish Trawl Catch Share Program. FISHEyE provides metrics to track and evaluate the catch share program. The metrics are not intended to be interpreted as causal, directional, nor normative but, rather, to facilitate the examination of trends and changes. Data used in FISHEyE comes from the Economic Data Collection (EDC) Program and the Pacific Fisheries Information Network (PacFIN). As part of the catch share program, participants of the fishery are required to complete EDC survey forms as stated in regulation 50 CFS 660.114. Data collection began in 2009, two years prior to implementing the catch share program. All vessels that participate in the catch share program must report data for all fisheries they participate in, including non-catch share fisheries.",

@@ -1,4 +1,5 @@
 {
+  "FIT_reviewed": "No",
   "authors": "Ward, E. J.",
   "background_text": "bycatch provides applications of Bayesian bycatch models, using Stan for estimation. These models fit Bayesian GLMs (with or without time varying parameters, and with or without covariates) to estimate bycatch rates. The package includes functions to estimate fleet-level estimates. The primary applications of these models (linked to below) are protected species bycatch (e.g. ESA listed birds, marine mammals) in the west coast groundfish fisheries off the west coast of the USA. Data compilation and analysis is done at the Northwest Fisheries Science Center (NWFSC) in Seattle. ",
   "maintainer_name": "Eric Ward",

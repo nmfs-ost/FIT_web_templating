@@ -1,4 +1,5 @@
 {
+  "FIT_reviewed": "No",
   "associated_tools": [{"name": "WHAM", "link":"https://timjmiller.github.io/wham"}],
   "authors": "C. Legault and V. Restrepo",
   "maintainer_name": "Christopher Legault", 

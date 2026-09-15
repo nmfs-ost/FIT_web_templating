@@ -1,4 +1,5 @@
 {
+  "FIT_reviewed": "No",
   "authors": "Doering, K., B. Li, and K. Johnson",
   "background_text": "Reusable github actions workflows for R packages.",
   "maintainer_name": "Kathryn Doering",

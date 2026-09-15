@@ -1,4 +1,5 @@
 {
+  "FIT_reviewed": "No",
     "active_development": true,
     "tool_name": "R package for phylogenetic structural equation models",
     "tool_abbreviation": "phylosem",

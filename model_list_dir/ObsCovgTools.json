@@ -1,4 +1,5 @@
 {
+  "FIT_reviewed": "No",
   "authors": "Curtis, A.",
   "background_text": "ObsCovgTools provides tools for evaluating fishery observer coverage, particularly with respect to documenting and estimating rare bycatch. Current functionality includes evaluating observer coverage in terms of 1) probabilities of observing a bycatch event and of any bycatch occurring in total effort, given mean bycatch rate, dispersion index (variance to mean ratio in the bycatch rate), and total fishery effort; 2) upper confidence limit of bycatch when none was observed, given total fishery effort and dispersion index; and 3) bycatch estimation CV (coefficient of variation), given bycatch rate, dispersion index, and total fishery effort. Estimates in all cases are based directly on the corresponding Poisson or negative binomial probability distribution.",
   "maintainer_name": "Alex Curtis",

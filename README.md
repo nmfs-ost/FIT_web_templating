@@ -57,9 +57,10 @@ python create_site_index_page.py dev_config.json # or prod_config.json if buildi
 
 These are just the commands in `create_html`.yml. Note that this will create new webpages that should NOT be saved to the repository.
 
-To view the webpages from VS code, try using the Live Preview Extension.
-You may need to add .html to the end of a link in order to view it properly. Sometimes the 
-embedded preview doesn't work, so a separate browser window will need to be opened instead.
+To view the pages, use
+```
+cd /workspaces/FIT_web_templating/deploy && python3 -m http.server 8000
+```
 
 ## Overview of GitHub Actions in toolbox_web_templating
 

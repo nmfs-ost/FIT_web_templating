@@ -1,4 +1,5 @@
 {
+  "FIT_reviewed": "No",
   "authors": "Ward, E. J.",
   "background_text": "The package phenomix provides a suite of curve fitting to describe phenology data that may be generated from a process when distributions in time might be concentrated (from fisheries, this occurs with things counts over time of salmon returning from the ocean to spawn or juvenile fish emigrating from streams to the ocean). For terrestrial applications, this may include times of flowering or leaf-out in plants or trees.",
   "maintainer_name": "Eric Ward",

@@ -50,6 +50,14 @@
           <input type="button" class="dropbtn" value="See all tools" onclick="resetSearch()">
 
           <div class="dropdown">
+            <button class="dropbtn">Filter tools by quality checks</button>
+            <div class="dropdown-content">
+              <input type="button" value="Passed" onclick="qualityCheckSearch('Yes')">
+              <input type="button" value="In Progress" onclick="qualityCheckSearch('In_Progress')">
+            </div>
+          </div>
+
+          <div class="dropdown">
             <button class="dropbtn">Filter tools by drawer</button>
             <div class="dropdown-content">
               <input type="button" value="Ecosystem" onclick="drawerSearch('Ecosystem')">
@@ -133,10 +141,23 @@
       
         <div class ="boxcontainer">
           {% for key, value in configs.items() %}
-          <div class = "box">
+          <div class = "box" data-fit-reviewed="{{ value.get('FIT_reviewed', 'No') }}">
               {% set my_string = value['tool_abbreviation']  %}
               <a class = "shortTitle" href= {{my_string}}> {{value['tool_abbreviation']}} </a>
               <div class = "longTitle">{{value['tool_name']}}</div>
+                {% if value['FIT_reviewed'] is defined and value['FIT_reviewed'] == 'Yes' %}
+                <div style="text-align: center;">
+                  <a href="https://nmfs-ost.github.io/noaa-fit-resources/noaa%20fit/tool-quality/">
+                    <img src="https://img.shields.io/badge/FIT_quality_checks-Passed-759A06" alt="A software badge showing that this tool has passed the FIT quality checks">
+                  </a>
+                </div>
+                {% elif value['FIT_reviewed'] is defined and value['FIT_reviewed'] == 'In_Progress' %}
+                <div style="text-align: center;">
+                  <a href="https://nmfs-ost.github.io/noaa-fit-resources/noaa%20fit/tool-quality/">
+                    <img src="https://img.shields.io/badge/FIT_quality_checks-In_Progress-white" alt="A software badge showing that this tool is currently under review for the FIT quality checks">
+                  </a>
+                </div>
+                {% endif %}
               <div class = "toolbox_drawers">
                 <h3>Toolbox drawer(s):</h3>
                 <ul>
@@ -239,6 +260,18 @@
                 }
             }
         }
+
+          function qualityCheckSearch(status) {
+            var box, i;
+            box = document.getElementsByClassName("box");
+            for (i = 0; i < box.length; i++) {
+              if (box[i].dataset.fitReviewed === status) {
+                box[i].style.display = "";
+              } else {
+                box[i].style.display = "none";
+              }
+            }
+          }
 
         function resetSearch() {
             var box, i;

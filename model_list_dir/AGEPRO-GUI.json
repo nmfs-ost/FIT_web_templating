@@ -1,4 +1,5 @@
 {
+  "FIT_reviewed": "No",
   "associated_tools": [{"name":"AGEPRO calculation engine", "link":"https://nmfs-ost.github.io/noaa-fit/AGEPRO"}],
   "authors": "Brodziak, J. and E. Fletcher",
   "maintainer_name": "Eric Fletcher",

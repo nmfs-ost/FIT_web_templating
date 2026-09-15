@@ -1,4 +1,5 @@
 {
+    "FIT_reviewed": "Yes",
     "active_development": true,
     "tool_name": "SPoRC",
     "tool_abbreviation": "SPoRC",
@@ -21,10 +22,6 @@
     "documentation_link": "https://chengmatt.github.io/SPoRC/articles/index.html",
     "source_code_link": "https://github.com/chengmatt/SPoRC",
     "software_badges": [
-        {
-            "link": "https://img.shields.io/badge/FIT_quality_checks-passed-759A06", 
-            "alt_text": "A software badge showing that this tool has passed the FIT quality checks"
-        },
         {
             "link": "https://codecov.io/gh/chengmatt/SPoRC/graph/badge.svg",
             "alt_text": "codecov test coverage"

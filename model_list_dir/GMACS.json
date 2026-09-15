@@ -1,4 +1,5 @@
 {
+  "FIT_reviewed": "No",
   "associated_tools": [{"name":"GMR, R code for GMACS", "link": "https://github.com/seacode/gmacs/tree/develop/gmr#gmr"},{"name":"ADMB","link":"https://www.admb-project.org"}],
   "authors": "J. Ianelli, A. Punt, D. Webber, S. Martell, and C.Szuwalski",
   "background_text": "Generalized model originally designed for Alaska crab stocks. GMACs is a generalized modelling framework for developing size-structured stock assessment models. It is an open source program developed using AD Model Builder (ADMB). Source files will therefore build on any computer that can run ADMB. ADMB is free, open source, and available for Windows, Linux, MacOS, and Sun/SPARC.",

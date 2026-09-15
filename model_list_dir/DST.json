@@ -1,4 +1,5 @@
 {
+  "FIT_reviewed": "No",
   "associated_tools": [{"name":"SS3","link":"https://vlab.ncep.noaa.gov/web/stock-synthesis"},{ "name":"SSMSE","link":"https://nmfs-fish-tools.github.io/SSME"}],
   "authors": "Nathan Vaughan",
   "background_text": "The DST package is a repository for the functions required to implement the NOAA stock assessment decision support tool. The decision support tool is designed to interface with Stock Synthesis (SS) assessment models to allow stock assessment scientists and managers to investigate the impact of potential management actions on the estimated future sustainable catch quotas. Some of the management actions that can be tested include adjusting catch allocations, implementing minimum size limits, and changing discard mortality rates.",

@@ -1,4 +1,5 @@
 {
+  "FIT_reviewed": "No",
   "tool_name": "Vector Autoregressive Spatio-Temporal Model",
   "tool_abbreviation": "VAST",
   "authors": "James T Thorson and Cole Monnahan",
