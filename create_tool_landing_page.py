@@ -100,5 +100,5 @@ def main(dev_or_prod_config, model_names=None):
 if __name__ == '__main__':
     dev_or_prod_config = sys.argv[1]; # use this approach if we need to generate multiple files
     with open(dev_or_prod_config) as f:
-            dev_or_prod_config =  json.load(f)
-  main(dev_or_prod_config, sys.argv[2:])
+        dev_or_prod_config =  json.load(f)
+    main(dev_or_prod_config, sys.argv[2:])
