@@ -91,7 +91,7 @@ def run_all_files(list_of_models, folder_out, configdir, dev_or_prod_config):
 def main(dev_or_prod_config, model_names=None):
     with open("models_all.json", "r") as read_file:
         modellist_configjson = json.load(read_file)
-  list_of_models = model_names or modellist_configjson['list_of_models']
+    list_of_models = model_names or modellist_configjson['list_of_models']
     folder_out= 'deploy'
     configdir= 'model_list_dir'
     run_all_files(list_of_models, folder_out, configdir, dev_or_prod_config)
