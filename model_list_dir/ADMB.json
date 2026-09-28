@@ -11,7 +11,6 @@
   "tool_name": "AD Model Builder",
   "maintainer_name":"orphaned",
   "maintainer_email":"users@admb-project.org",
-  "pdf_download_link": "https://tandfonline.com/doi/abs/10.1080/10556788.2011.597854?needAccess=true#aHR0cHM6Ly90YW5kZm9ubGluZS5jb20vZG9pL3BkZi8xMC4xMDgwLzEwNTU2Nzg4LjIwMTEuNTk3ODU0P25lZWRBY2Nlc3M9dHJ1ZUBAQDA=",
   "active_development": false,
   "noaa_internal": false,
   "uses_github_releases": true,
