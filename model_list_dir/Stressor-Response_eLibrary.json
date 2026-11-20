@@ -1,0 +1,28 @@
+{
+    "FIT_reviewed": "In_Progress",
+    "active_development": true,
+    "tool_name": "Pacific Salmonid Stressor-Response eLibrary",
+    "tool_abbreviation": "Stressor-Response_eLibrary",
+    "authors": "Danielle Andrews, Paxton Calhoun",
+    "contributors": "Aimee Fullerton, Morgan Bond, Sierra Sullivan, Matthew Bayly, Maelice Yamdjieu, Garrett Ringler, Lavanya Bunadri, Ruqhaiya Syeda",
+    "noaa_internal": true,
+    "maintainer_name": "Paxton Calhoun",
+    "maintainer_email": "paxton.calhoun@noaa.gov",
+    "background_text": "The Pacific Salmonid Stressor-Response eLibrary is an open-source, interactive R Shiny application and PostgreSQL database designed to support researchers and modelers working with life cycle models. Its primary motivation is to act as a research and management tool for Pacific salmonid recovery by consolidating quantitative relationships between environmental stressors and salmonid biological response at a specific life stage into a centralized decision- and research-support tool. Users can explore database coverage, dynamically filter relationships, overlay multiple functional curves for comparative analysis, export data, and submit new quantitative relationships for administrative vetting and inclusion.",
+    "citation": "https://doi.org/10.1139/cjfas-2026-0073",
+    "online_app_link": "https://connect.fisheries.noaa.gov/salmon_stressor_response_library/",
+    "source_code_link": "https://github.com/noaa-nwfsc/salmon_stressor_response_library",
+    "installation_instructions": "No local installation is required for end-users. Access the web-hosted Shiny application on Posit Connect using the Online App link. Administrators or developers wishing to run the app locally can clone the repository, open the .Rproj file, restore the renv environment, and click \"Run App\" in RStudio. See the <a href=\"https://github.com/noaa-nwfsc/salmon_stressor_response_library#getting-started\">getting started instructions</a>. User documentation is also available within the application's About and User Guide tabs.",
+    "toolbox_drawers": [
+        "Fish and Fisheries",
+        "Protected Species",
+        "General Modeling Tools"
+    ],
+    "keywords": [
+        "Data Exploration",
+        "Decision Support Tool",
+        "Salmon",
+        "Shiny"
+    ],
+    "uses_github_releases": false
+}
