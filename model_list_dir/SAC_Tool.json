@@ -15,22 +15,22 @@
     }
   ],
   "authors": "J. Cope",
-  "background_text": "The SS-DL tool uses Stock Synthesis to implement several common data-limited assessment methods all in one modelling framework. Under a unified modelling framework, additional data can be added as it becomes available. The tool builds Stock Synthesis files for provided data and life history information. It produces plots and tables for each model run via the r4ss package, as well as additional screen output for easy interpretation and provide a variety of additional applications to diagnose and explore model behavior.",
+  "background_text": "The SAC tool uses Stock Synthesis to implement several common data-limited assessment methods all in one modelling framework. Under a unified modelling framework, additional data can be added as it becomes available. The tool builds Stock Synthesis files for provided data and life history information. It produces plots and tables for each model run via the r4ss package, as well as additional screen output for easy interpretation and provide a variety of additional applications to diagnose and explore model behavior.",
   "maintainer_name": "Jason Cope",
   "maintainer_email":"jason.cope@noaa.gov",
   "source_code_link": "https://github.com/shcaba/SS-DL-tool",
-  "tool_abbreviation": "SS-DL_Tool",
-  "tool_name": "Stock Synthesis - Data Limited Tool",
+  "tool_abbreviation": "SAC_Tool",
+  "tool_name": "The Stock Assessment Continuum Tool",
   "software_badges":[
     {
       "link": "https://www.repostatus.org/badges/latest/active.svg", 
       "alt_text": "A software badge showing that the repository is active."
     }
   ],
-    "active_development": true,
+  "active_development": true,
   "noaa_internal": true,
   "static_version_number": "3.30.13",
   "uses_github_releases": false,
   "toolbox_drawers": ["Fish and Fisheries"], 
-  "keywords": ["Data Limited Method", "Shiny", "Web App", "Guided User Interface", "Stock Assessment Model"]
+  "keywords": ["Data Limited Method", "Shiny", "Guided User Interface", "Stock Assessment Model"]
 }
